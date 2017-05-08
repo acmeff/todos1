@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
   window.store = store;
   // TODO: Remove store from window
   let content = document.getElementById('content');
-  ReactDOM.render(<Root/>, content);
+  ReactDOM.render(<Root store={store}/>, content);
 });
